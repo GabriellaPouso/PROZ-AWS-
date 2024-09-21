@@ -27,3 +27,26 @@ peso = float(input("Qual seu peso? "))
 altura = float(input("Qual sua altura? "))
 resultado = calculadoraImc(peso, altura)
 print(resultado)
+
+def aprovacao(nota1, nota2, nota3):
+  media = (nota1 + nota2 + nota3)/3
+  if(media>=7):
+    res="Aprovado"
+  else:
+    res="Reprovado"
+  return res
+nota1=float(input("Qual a nota 1? "))
+nota2=float(input("Qual a nota 2? "))
+nota3=float(input("Qual a nota 3? "))
+resultado=aprovacao(nota1, nota2, nota3)
+print(resultado)
+  
+def operacao(num_lim, incre):
+  contador = 0
+  for i in range(0, num_lim, incre):
+    contador = contador + 1
+    return contador
+num_lim=30
+incre=48
+resultado = operacao(num_lim, incre)
+print(resultado)
