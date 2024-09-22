@@ -115,5 +115,6 @@ elif escolha=="1" or "2" or "3" or "4":
                 print(num1, "x", num2, "=", multiply(num1, num2))
             elif escolha=="4":
                 print(num1, ":", num2, "=", divide (num1, num2))
-    
+    # infelizmente, está errada, porque só roda 3 vezes e para...
+    #Fiz outra versão corrigida, porém não há como trocar o link na plataforma...
 
