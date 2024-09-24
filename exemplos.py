@@ -67,3 +67,13 @@ produtos = {
 }
 for lista in produtos:
   print(lista, produtos[lista])
+  
+def soma(nomes, numeros):
+ 
+    print(f"Lista de nomes: {nomes}")
+    print(f"Vetor de números: {numeros}")
+ 
+lista_nomes = ["Alice", "Bob", "Carlos", "Diana", "Eva"]
+vetor_numeros = [1, 2, 3, 4, 5]
+ 
+soma(lista_nomes, vetor_numeros)

@@ -6,3 +6,4 @@ for lista in listaTexto:
     valor = float(lista)
     soma = soma + valor
 print(soma)
+
