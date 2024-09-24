@@ -1,4 +1,4 @@
-with open("soma.txt","r") as arquivo:
+with open("","r") as arquivo:
     texto = arquivo.read()
 listaTexto = (texto.split())
 print(listaTexto)

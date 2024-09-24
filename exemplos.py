@@ -58,4 +58,12 @@ for i in range(3):
 for i in "Gabriella":
     print(i)
     
-
+produtos = {
+  "faca": 10,
+  "garfo": 10,
+  "panela": 200,
+  "frigideira": 50,
+  "flavorstone": 300,
+}
+for lista in produtos:
+  print(lista, produtos[lista])
