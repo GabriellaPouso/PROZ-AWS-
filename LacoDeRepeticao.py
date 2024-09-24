@@ -11,7 +11,7 @@ for i in range(2,10,2):
 for i in range(2,10,-1):
     print(i)
 
-import random
+import random  #Para sorteio!
 numero = random.randint(1,10)
 while(numero != 5):
     print(numero)
