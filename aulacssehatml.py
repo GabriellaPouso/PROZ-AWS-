@@ -59,3 +59,40 @@ lista_num = [2, 45, 65, 78, 126, 987, 457, 345, 679, 107, 2345, 452, 3, 34, 560]
 for i in range(len(lista_num)):
     print(lista_num[i])
 
+lista_frutas = ['maçã', 'banana', 'pera']
+print(lista_frutas)
+# Imprimirá: ['maçã', 'banana', 'pera']
+lista_frutas[0] = 'melancia'
+print(lista_frutas)
+# Imprimirá: ['melancia', 'banana', 'pera']
+
+lista_frutas = ['melancia', 'banana', 'pera']
+print(lista_frutas)
+# Imprimirá: ['melancia', 'banana', 'pera']
+lista_frutas[1], lista_frutas[2] = 'morango', 'abacaxi'
+print(lista_frutas)
+# Imprimirá: ['melancia', 'morango', 'abacaxi']
+
+lista_frutas = ['melancia', 'morango', 'abacaxi']
+print(lista_frutas)
+# Imprimirá: ['melancia', 'morango', 'abacaxi']
+
+lista_frutas[1] = lista_frutas[0]
+print(lista_frutas)
+# Imprimirá: ['melancia', 'melancia', 'abacaxi']
+
+lista_frutas = ['melancia', 'morango', 'abacaxi']
+print(lista_frutas)
+# Imprimirá: ['melancia', 'morango', 'abacaxi']
+
+lista_frutas.append('kiwi')
+print(lista_frutas)
+# Imprimirá: ['melancia', 'morango', 'abacaxi', 'kiwi']
+
+lista_frutas = ['melancia', 'morango', 'abacaxi', 'kiwi']
+print(lista_frutas)
+# Imprimirá: ['melancia', 'morango', 'abacaxi', 'kiwi']
+lista_frutas.pop() #o último quando está sem indicação
+print(lista_frutas)
+# Imprimirá: ['melancia', 'morango', 'abacaxi']
+#métodos: .append(); .pop(); (len())
