@@ -2,11 +2,12 @@ git init
 git config user.name NOME
 git config user.mail EMAIL
 git config --global user.name NOME
-git config --global user.mail EMAIL
-git add --all
-git add .
 git commit -m "Descrição do commit"
 git branch
 git branch NOME-DA-BRANCH
 git checkout NOME-DA-BRANCH
 git merge
+git config --global user.mail EMAIL
+git add --all
+git add .
+frase para conflitar
