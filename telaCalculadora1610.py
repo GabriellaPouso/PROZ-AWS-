@@ -10,13 +10,13 @@ img=janela.CTkImage(Image.open("ico-icon-ghost.ico"), size=(150,115))
 imagem = janela.CTkLabel(main, image = img, text="")
 imagem.pack(padx=10,pady=10)
 
-texto1 = janela.CTkLabel(main, text="Primeiro Número: ")
+texto1 = janela.CTkLabel(main, text="Primeiro Número: ", font=('bold', 16))
 texto1.pack()
 
 numero1 = janela.CTkEntry(main, placeholder_text="Numero")
 numero1.pack(padx=0,pady=10)
 
-texto2 = janela.CTkLabel(main, text="Segundo Número: ")
+texto2 = janela.CTkLabel(main, text="Segundo Número: ", font=('bold', 16))
 texto2.pack()
 
 numero2 = janela.CTkEntry(main,placeholder_text="Número")
@@ -45,7 +45,7 @@ def divi():
     valor_btn.set(divi)
     print(divi)
 
-btn = janela.CTkButton(main, text="+", fg_color="#FF7E06",text_color="#000",hover_color="", command=soma)
+btn = janela.CTkButton(main, text="+", fg_color="#FF7E06",text_color="#000", command=soma)
 btn.pack(padx=5,pady=5)
 btn = janela.CTkButton(main, text="-", fg_color="#FF7E06", text_color="#000",command=sub)
 btn.pack(padx=5,pady=5)
