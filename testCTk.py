@@ -10,7 +10,7 @@ app.iconbitmap("ico-icon-ghost.ico")
 app.grid_columnconfigure((0), weight=1)
 
 
-numero1 = customtkinter.CTkEntry(app, placeholder_text="Entre")
+numero1 = customtkinter.CTkEntry(app, placeholder_text="0")
 numero1.grid(row=0, column=0, padx=20, pady=20, sticky="ew", columnspan=4)
 
 #linha 2
