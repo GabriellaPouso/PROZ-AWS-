@@ -9,9 +9,27 @@ app.geometry("600x250")
 app.iconbitmap("ico-icon-ghost.ico")
 app.grid_columnconfigure((0), weight=1)
 
-
-numero1 = customtkinter.CTkEntry(app, placeholder_text="0")
-numero1.grid(row=0, column=0, padx=20, pady=20, sticky="ew", columnspan=4)
+def soma():
+    soma = int(numero1.get()) + int(numero2.get())
+    valor_btn.set(soma)
+    print(soma)
+    
+def sub():
+    sub = int(numero1.get()) - int(numero2.get())
+    valor_btn.set(sub)
+    print(sub)
+    
+def multi():
+    multi = int(numero1.get()) * int(numero2.get())
+    valor_btn.set(multi)
+    print(multi)
+    
+def divi():
+    divi = int(numero1.get()) / int(numero2.get())
+    valor_btn.set(divi)
+    print(divi)
+numero = customtkinter.CTkEntry(app, placeholder_text="0")
+numero.grid(row=0, column=0, padx=20, pady=20, sticky="ew", columnspan=4)
 
 #linha 2
 button = customtkinter.CTkButton(app, text="7", command=button_callback)
@@ -23,8 +41,9 @@ button.grid(row=2, column=1, padx=10, pady=(0, 10), sticky="w")
 button = customtkinter.CTkButton(app, text="9", command=button_callback)
 button.grid(row=2, column=2, padx=10, pady=(0, 10), sticky="w")
 
-button = customtkinter.CTkButton(app, text="+", command=button_callback)
+button = customtkinter.CTkButton(app, text="+", fg_color="#FF7E06",text_color="#000", command=soma)
 button.grid(row=2, column=3, padx=10, pady=(0, 10), sticky="w")
+
 
 
 #linha 3
