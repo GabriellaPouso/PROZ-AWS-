@@ -4,85 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recife</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body style="font-family: Arial, sans-serif; color: #333; margin: 0; padding: 0;">
+<body>
 
     <!-- Cabeçalho -->
-    <header style="background-color: #4CAF50; color: white; padding: 1em; text-align: center;">
-        <h1 style="margin: 0;">Bem-vindo à Recife</h1>
-        <p style="margin: 0;">Aqui você encontra as melhores informações sobre os melhores pontos turísticos de Recife</p>
+    <header id="home" class="bg-success text-white text-center py-4">
+        <h1 class="mb-0">Bem-vindo à Recife</h1>
+        <p>Aqui você encontra as melhores informações sobre os melhores pontos turísticos de Recife</p>
     </header>
 
     <!-- Navegação -->
-    <nav style="background-color: #333; padding: 0.5em; text-align: center;">
-        <a href="#home" style="color: white; margin: 0 1em; text-decoration: none;">Recife</a>
-        <a href="#sobre" style="color: white; margin: 0 1em; text-decoration: none;">Praça do Marco Zero</a>
-        <a href="#servicos" style="color: white; margin: 0 1em; text-decoration: none;">Embaixada dos Bonecos Gigantes</a>
-        <a href="#contato" style="color: white; margin: 0 1em; text-decoration: none;">Paço do Frevo</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Recife</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Recife</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Praça do Marco Zero</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Embaixada dos Bonecos Gigantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Paço do Frevo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!-- Seção principal -->
-    <main style="padding: 2em;">
+    <main class="container my-4">
 
         <!-- Seção de introdução -->
-        <section id="home" style="padding: 1em; background-color: #f4f4f4; margin-bottom: 1em;">
-            <h2 style="color: #4CAF50; text-align: center">Recife</h2>
-            <p style="text-align: center">&nbsp;Atualmente, Recife possui cerca de 1,6 milh&atilde;o de habitantes, que s&atilde;o governados por um regime de divis&atilde;o de poderes. A cidade possui uma forte atividade econ&ocirc;mica terci&aacute;ria e tem modernos equipamentos de infraestrutura. A cidade de Recife &eacute; <strong>um dos principais centros culturais do Brasil</strong>.</p>
-            <figure style="text-align: center">
-                <img class="bigest-img" rel="preload" src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/08/bandeira-de-recife.jpg" alt="Bandeira de Recife" title="Bandeira de Recife" width="600" height="400" />
-                    <figcaption>Bandeira de Recife</figcaption>
+        <section id="home" class="mb-5 p-4 bg-light rounded shadow-sm position-relative">
+            <h2 class="text-center text-success">Recife</h2>
+            <p class="text-center">Atualmente, Recife possui cerca de 1,6 milhão de habitantes, que são governados por um regime de divisão de poderes. A cidade possui uma forte atividade econ&ocirc;mica terci&aacute;ria e tem modernos equipamentos de infraestrutura. A cidade de Recife &eacute; um dos principais centros culturais do Brasil</p>
+            <figure class="text-center">
+                <img class="img-fluid rounded" src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/08/bandeira-de-recife.jpg" alt="Bandeira de Recife" title="Bandeira de Recife" width="600" height="400">
+                <figcaption class="text-muted mt-2">Bandeira de Recife</figcaption>
             </figure>
+            <a href="#home" class="btn btn-primary position-absolute bottom-0 end-0 m-3">Voltar ao topo</a>
         </section>
 
         <!-- Seção sobre -->
-        <section id="sobre" style="padding: 1em; margin-bottom: 1em; ">
-            <h2 style="color: #4CAF50; text-align:center">Praça do Marco Zero</h2>
-            <p style="text-aling: justify">O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval.</p>
-            <p style="font-weight: bold;">O que conhecer no Marco Zero de Recife:</p>
-            <ul style="list-style-type: disc; padding-left: 1em;">
-                <li>Caixa Cultural Recife.</li>
-                <li>Museu Cais do Sertão.</li>
+        <section id="sobre" class="mb-5 p-4 bg-white rounded shadow-sm position-relative">
+            <h2 class="text-center text-success">Praça do Marco Zero</h2>
+            <p class="text-justify">O Marco Zero, na Praça Rio Branco, é conhecido como local de fundação da cidade do Recife e também como ponto inicial de contagem das distâncias calculadas a partir da cidade. O lugar é um dos pontos mais importantes na capital Pernambucana, pois é também uma região de forte movimento durante o Carnaval</p>
+            <p><strong>O que conhecer no Marco Zero de Recife:</strong></p>
+            <ul class="list-unstyled ms-3">
+                <li>Caixa Cultural Recife</li>
+                <li>Museu Cais do Sertão</li>
                 <li>Centro de Artesanato de Pernambuco</li>
-                <li>Parque das Esculturas Francisco Brennand.</li>
+                <li>Parque das Esculturas Francisco Brennand</li>
             </ul>
-            <figure style="text-align: center">
-                <img class="bigest-img" rel="preload" src="https://marcozero.blog.br/wp-content/uploads/2024/03/marco-zero-recife-770x400.jpg" alt="Praça do Marco Zero" title="Praça do Marco Zero" width="600" height="400" />
-                    <figcaption>Praça do Marco Zero</figcaption>
+            <figure class="text-center">
+                <img class="img-fluid rounded" src="https://marcozero.blog.br/wp-content/uploads/2024/03/marco-zero-recife-770x400.jpg" alt="Praça do Marco Zero" title="Praça do Marco Zero" width="600" height="400">
+                <figcaption class="text-muted mt-2">Praça do Marco Zero</figcaption>
             </figure>
+            <a href="#home" class="btn btn-primary position-absolute bottom-0 end-0 m-3">Voltar ao topo</a>
         </section>
 
         <!-- Seção de serviços -->
-        <section id="servicos" style="padding: 1em; background-color: #f4f4f4; margin-bottom: 1em;">
-            <h2 style="color: #4CAF50; text-align:center">Embaixada dos Bonecos Gigantes</h2>
-            <p style="text-aling: justify">A EMBAIXADA DOS BONECOS GIGANTES surgiu da grande necessidade do turismo de Recife e Olinda de possuir um espaço cultural estruturado a receber turistas e recifenses para contemplar a grande magia da nova geração dos Bonecos Gigantes não só no carnaval, mas sim o ano inteiro.</p>
-            <figure style="text-align: center">
-                <img class="bigest-img" rel="preload" src="https://www.bonecosgigantesdeolinda.com.br/fotos/embaixada/nova6.jpg" alt="bonecosgigantesdeolinda" title="bonecosgigantesdeolinda" width="600" height="400" />
-                    <figcaption>Embaixada dos Bonecos Gigantes</figcaption>
+        <section id="servicos" class="mb-5 p-4 bg-light rounded shadow-sm position-relative">
+            <h2 class="text-center text-success">Embaixada dos Bonecos Gigantes</h2>
+            <p>>A EMBAIXADA DOS BONECOS GIGANTES surgiu da grande necessidade do turismo de Recife e Olinda de possuir um espaço cultural estruturado a receber turistas e recifenses para contemplar a grande magia da nova geração dos Bonecos Gigantes não só no carnaval, mas sim o ano inteiro.</p>
+            <figure class="text-center">
+                <img class="img-fluid rounded" src="https://www.bonecosgigantesdeolinda.com.br/fotos/embaixada/nova6.jpg" alt="Embaixada dos Bonecos Gigantes" title="Embaixada dos Bonecos Gigantes" width="600" height="400">
+                <figcaption class="text-muted mt-2">Embaixada dos Bonecos Gigantes</figcaption>
             </figure>
+            <a href="#home" class="btn btn-primary position-absolute bottom-0 end-0 m-3">Voltar ao topo</a>
         </section>
 
         <!-- Artigo exemplo -->
-        <section style="padding: 1em; margin-bottom: 1em;">
-            <h2 style="color: #4CAF50;">Paço do Frevo</h2>
+        <section id="contato" class="mb-5 p-4 bg-white rounded shadow-sm position-relative">
+            <h2 class="text-center text-success">Paço do Frevo</h2>
             <p>Instalado no Bairro do Recife, o Paço do Frevo é um Centro de Referência em Salvaguarda do Frevo dedicado à difusão, pesquisa, lazer e formação nas áreas da dança e música do frevo. Seu objetivo é proteger, divulgar e propagar a prática do frevo para as futuras gerações e ser uma espaço de promoção e celebração da cultura carnavalesca e do frevo durante o ano todo.</p>
-            <figure style="text-align: center">
-                <img class="bigest-img" rel="preload" src="https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2020/09/10/840787/20200910120210138157o.jpeg" alt="Paço do Frevo" title="Paço do Frevo" width="600" height="400" />
-                    <figcaption>Paço do Frevo</figcaption>
+            <figure class="text-center">
+                <img class="img-fluid rounded" src="https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2020/09/10/840787/20200910120210138157o.jpeg" alt="Paço do Frevo" title="Paço do Frevo" width="600" height="400">
+                <figcaption class="text-muted mt-2">Paço do Frevo</figcaption>
             </figure>
+            <a href="#home" class="btn btn-primary position-absolute bottom-0 end-0 m-3">Voltar ao topo</a>
         </section>
 
         <!-- Seção de contato -->
-        <section id="contato" style="padding: 1em;">
-            <h2 style="color: #4CAF50;">Entre em Contato</h2>
-            <p>Telefone: (81) 1234-5678</p>
-            <p>Email: contato@meusite.com</p>
+        <section class="mb-5 p-4 bg-light rounded shadow-sm position-relative">
+            <h2 class="text-center text-success">Entre em Contato</h2>
+            <p><strong>Telefone:</strong> (81) 1234-5678</p>
+            <p><strong>Email:</strong> contato@meusite.com</p>
+            <a href="#home" class="btn btn-primary position-absolute bottom-0 end-0 m-3">Voltar ao topo</a>
         </section>
     </main>
 
     <!-- Rodapé -->
-    <footer style="background-color: #333; color: white; text-align: center; padding: 1em;">
-        <p>&copy; 2024 Meu Site - Todos os direitos reservados.</p>
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2024 Meu Site - Todos os direitos reservados.</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
