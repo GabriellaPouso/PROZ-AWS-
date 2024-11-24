@@ -20,4 +20,4 @@ Este projeto foca no aprendizado de Python e desenvolvimento front-end com HTML,
 3. Execute o script principal.
 
 ## 🤝 Contribua
-Contribuições são bem-vindas! Veja [CONTRIBUTING.md](link).
+Contribuições são bem-vindas! Veja [CONTRIBUTING.md](https://github.com/GabriellaPouso/PROZ-AWS-/blob/main/CONTRIBUTING.md).
