@@ -1,0 +1,68 @@
+
+Tabela dos alunos aprovados, média acima de 7.0:
+
+|----------------------------------ALUNO--------------------------------------|
+|  P.NOME      |  U.NOME    |  MATRÍCULA  | SÉRIE    |  DISCIPLINA   |  NOTA  |
+|  LUIZ        |  SILVA     |     6215    |  1º ANO  |  PORTUGUÊS    |  8.0   |
+|  ANDRÉ       |  CARVALHO  |     4521    |  3º ANO  |  MATEMÁTICA   |  9.5   |
+|  ALAN        |  VILELA    |     3285    |  1º ANO  |  HISTÓRIA     |  8.0   |
+|  FIGUEIREDO  |  SANTOS    |     4598    |  2º ANO  |  GEOGRAFIA    |  9.0   |
+
+Tabela dos alunos aprovados no primeiro ano com notas >= 8.0:
+
+|----------------------------------ALUNO--------------------------------------|
+|  P.NOME      |  U.NOME    |  MATRÍCULA  | SÉRIE    |  DISCIPLINA   |  NOTA  |
+|  LUIZ        |  SILVA     |     6215    |  1º ANO  |  PORTUGUÊS    |  8.0   |
+|  ALAN        |  VILELA    |     3285    |  1º ANO  |  HISTÓRIA     |  8.0   |
+
+Apenas os nomes e notas dos alunos:
+
+|--------------ALUNO-----------------|
+|  P.NOME      |  U.NOME    |  NOTA  |
+|  VITÓRIA     |  CLAUDINO  |  7.0   |
+|  LUIZ        |  SILVA     |  8.0   |
+|  ANDRÉ       |  CARVALHO  |  9.5   |
+|  ALAN        |  VILELA    |  8.0   |
+|  FIGUEIREDO  |  SANTOS    |  9.0   |
+
+Criar tabela PROFESSOR:
+
+|-----------PROFESSOR------|
+|  P.NOME     |  U.Nome    |
+|  FREDERICO  |  OTAVIANO  |
+
+Crias tabela ALUNO somente com nome e último nome de cada aluno:
+|-----------ALUNO-----------|
+|  P.NOME      |  U.NOME    |
+|  VITÓRIA     |  CLAUDINO  |
+|  LUIZ        |  SILVA     |
+|  ANDRÉ       |  CARVALHO  |
+|  ALAN        |  VILELA    |
+|  FIGUEIREDO  |  SANTOS    |
+
+União de ALUNO e PROFESSOR:
+
+|-----ALUNO Ս PROFESSOR----|
+| P.NOME     | U.NOME      |
+| VITÓRIA    | CLAUDINO    |
+| LUIZ       | SILVA       |
+| ANDRÉ      | CARVALHO    |
+| ALAN       | VILELA      |
+| FIGUEIREDO | SANTOS      |
+| FREDERICO  | OTAVIANO    |
+
+Interseção de ALUNO e PROFESSOR:
+
+|----ALUNO ∩ PROFESSOR----|
+|  P.NOME    |  U.Nome    |
+|  --------- |  --------  |
+
+Diferença de ALUNO e PROFESSOR:
+
+|-----ALUNO ≠ PROFESSOR----|
+| P.NOME     | U.NOME      |
+| VITÓRIA    | CLAUDINO    |
+| LUIZ       | SILVA       |
+| ANDRÉ      | CARVALHO    |
+| ALAN       | VILELA      |
+| FIGUEIREDO | SANTOS      |
