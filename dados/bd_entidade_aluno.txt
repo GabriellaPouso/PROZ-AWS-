@@ -1,0 +1,37 @@
+Entidade: Aluno
+Atributos
+Atributo Simples
+
+Matrícula: número identificador único do aluno
+
+Atributo Composto
+
+Nome Completo:
+
+Nome
+Sobrenome
+Nome do Meio (opcional)
+
+
+
+Atributos Multivalorados
+
+Telefones:
+
+Telefone residencial
+Telefone celular
+Telefone comercial
+
+
+E-mails:
+
+E-mail pessoal
+E-mail institucional
+E-mail alternativo
+
+
+Habilidades:
+
+Linguagens de programação
+Idiomas
+Certificações técnicas
