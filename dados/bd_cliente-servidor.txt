@@ -1,0 +1,30 @@
+Em termos simples, a arquitetura cliente-servidor é um modelo de interação em redes de computadores onde um dispositivo (o cliente) solicita um serviço a outro dispositivo (o servidor). É como se você fosse um cliente em um restaurante (cliente) e o garçom (servidor) atendesse ao seu pedido.
+
+Como funciona?
+Link da imagem:
+https://www.researchgate.net/profile/Marcos-Seruffo-2/publication/337991059/figure/fig2/AS:886925120512001@1588470835998/Figura-2-Cenario-proposto-arquitetura-cliente-servidor.png
+
+
+ClienteServidor Architecture
+
+Componentes:
+
+Cliente: É o dispositivo que inicia a solicitação. Pode ser um computador, smartphone, tablet, etc.
+Servidor: É o dispositivo que fornece o serviço solicitado. Pode ser um banco de dados, um servidor web, um servidor de email, etc.
+Processo:
+
+Solicitação: O cliente envia uma solicitação ao servidor, geralmente através da internet. Por exemplo, quando você digita um endereço em seu navegador (cliente), ele envia uma solicitação ao servidor web que hospeda aquele site.
+Processamento: O servidor recebe a solicitação, processa a informação e gera uma resposta. No exemplo do navegador, o servidor web busca as páginas HTML, imagens e outros arquivos necessários para montar a página e envia de volta ao cliente.
+Resposta: O servidor envia a resposta ao cliente. O navegador recebe a resposta e exibe a página na sua tela.
+Exemplos:
+
+Navegação na Web: O navegador é o cliente e o servidor web é o servidor.
+E-mail: O cliente de email é o cliente e o servidor de email é o servidor.
+Banco de dados: O aplicativo que acessa o banco de dados é o cliente e o sistema de gerenciamento de banco de dados (SGBD) é o servidor.
+Vantagens da Arquitetura Cliente-Servidor:
+
+Compartilhamento de recursos: Múltiplos clientes podem acessar os mesmos recursos do servidor.
+Centralização: A gestão e manutenção são centralizadas no servidor.
+Escalabilidade: É fácil adicionar novos clientes ou servidores para aumentar a capacidade do sistema.
+Segurança: As medidas de segurança podem ser centralizadas no servidor.
+Em resumo, a arquitetura cliente-servidor é um modelo fundamental para a construção de sistemas distribuídos, permitindo a interação entre diversos dispositivos e a compartilhamento de recursos de forma eficiente.
